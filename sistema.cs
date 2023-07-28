@@ -6,6 +6,7 @@ namespace CaixaEletronico
     {
         static void Main(string[] args)
         {
+            int function;
             int[] notasDisponiveis = { 100, 50, 10, 5, 1 };
 
             Console.Write("Digite o valor do saque: ");
@@ -25,6 +26,7 @@ namespace CaixaEletronico
                     Console.WriteLine($"{quantidadeNotas} nota(s) de {nota} reais");
                 }
             }
+
         }
     }
 }
